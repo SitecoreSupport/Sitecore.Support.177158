@@ -117,7 +117,7 @@
                 return string.Empty;
             }
 
-            return "_#data:" + item.Paths.Path;
+            return "_#data:" + item.Uri;
         }
 
         /// <summary>Gets the device part.</summary>
