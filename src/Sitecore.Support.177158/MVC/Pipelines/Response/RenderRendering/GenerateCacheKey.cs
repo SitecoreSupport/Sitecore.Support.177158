@@ -95,9 +95,9 @@
         [NotNull]
         protected virtual string GetAreaPart([NotNull] RenderRenderingArgs args)
         {
-            if (args.PageContext.RequestContext.RouteData.DataTokens.ContainsKey(Constants.AreaKey))
+            if (args.PageContext.RequestContext.RouteData.DataTokens.ContainsKey("area"))
             {
-                return "_#area:" + args.PageContext.RequestContext.RouteData.DataTokens[Constants.AreaKey];
+                return "_#area:" + args.PageContext.RequestContext.RouteData.DataTokens["area"];
             }
             return string.Empty;
         }

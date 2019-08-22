@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sitecore.MVC\Pipelines\Response\RenderRendering\GenerateCacheKey.cs" />
+    <Compile Include="MVC\Pipelines\Response\RenderRendering\GenerateCacheKey.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.177158.config" />
